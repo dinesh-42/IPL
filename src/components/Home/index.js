@@ -6,7 +6,7 @@ import './index.css'
 const teamsApiUrl = 'https://apis.ccbp.in/ipl'
 class Home extends Component{
     state = {
-        istLoading = true, 
+        istLoading : true, 
         teamsData: [],
     } 
     componentDidMount(){
